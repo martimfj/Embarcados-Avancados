@@ -1,0 +1,59 @@
+|Toplevel
+fpga_clk_50 => LED_peripheral:A0.clk
+fpga_en_sw => LED_peripheral:A0.enab
+fpga_sw[0] => LED_peripheral:A0.freq[0]
+fpga_sw[1] => LED_peripheral:A0.freq[1]
+fpga_sw[2] => LED_peripheral:A0.freq[2]
+fpga_sw[3] => LED_peripheral:A0.freq[3]
+fpga_led_pio[0] << LED_peripheral:A0.leds[0]
+fpga_led_pio[1] << LED_peripheral:A0.leds[1]
+fpga_led_pio[2] << LED_peripheral:A0.leds[2]
+fpga_led_pio[3] << LED_peripheral:A0.leds[3]
+fpga_led_pio[4] << LED_peripheral:A0.leds[4]
+fpga_led_pio[5] << LED_peripheral:A0.leds[5]
+
+
+|Toplevel|led_peripheral:A0
+clk => blink.CLK
+clk => counter[0].CLK
+clk => counter[1].CLK
+clk => counter[2].CLK
+clk => counter[3].CLK
+clk => counter[4].CLK
+clk => counter[5].CLK
+clk => counter[6].CLK
+clk => counter[7].CLK
+clk => counter[8].CLK
+clk => counter[9].CLK
+clk => counter[10].CLK
+clk => counter[11].CLK
+clk => counter[12].CLK
+clk => counter[13].CLK
+clk => counter[14].CLK
+clk => counter[15].CLK
+clk => counter[16].CLK
+clk => counter[17].CLK
+clk => counter[18].CLK
+clk => counter[19].CLK
+clk => counter[20].CLK
+clk => counter[21].CLK
+clk => counter[22].CLK
+clk => counter[23].CLK
+enab => leds.IN1
+enab => leds.IN1
+enab => leds.IN1
+enab => leds.IN1
+enab => leds.IN1
+enab => leds.IN1
+freq[0] => Add0.IN8
+freq[1] => Add0.IN7
+freq[2] => Add0.IN6
+freq[3] => Add0.IN5
+leds[0] <= leds.DB_MAX_OUTPUT_PORT_TYPE
+leds[1] <= leds.DB_MAX_OUTPUT_PORT_TYPE
+leds[2] <= leds.DB_MAX_OUTPUT_PORT_TYPE
+leds[3] <= leds.DB_MAX_OUTPUT_PORT_TYPE
+leds[4] <= leds.DB_MAX_OUTPUT_PORT_TYPE
+leds[5] <= leds.DB_MAX_OUTPUT_PORT_TYPE
+
+
