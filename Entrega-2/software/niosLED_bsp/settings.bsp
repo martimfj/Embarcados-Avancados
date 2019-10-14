@@ -2,8 +2,8 @@
 <sch:Settings xmlns:sch="http://www.altera.com/embeddedsw/bsp/schema">
         <BspType>hal</BspType>
         <BspVersion>default</BspVersion>
-        <BspGeneratedTimeStamp>Sep 11, 2019 6:42:45 PM</BspGeneratedTimeStamp>
-        <BspGeneratedUnixTimeStamp>1568238165507</BspGeneratedUnixTimeStamp>
+        <BspGeneratedTimeStamp>Sep 16, 2019 7:36:05 PM</BspGeneratedTimeStamp>
+        <BspGeneratedUnixTimeStamp>1568673365770</BspGeneratedUnixTimeStamp>
         <BspGeneratedLocation>/home/martimfj/Dropbox/Insper/embarcados-avancados/Embarcados-Avancados/Entrega-2/software/niosLED_bsp</BspGeneratedLocation>
         <BspSettingsFile>settings.bsp</BspSettingsFile>
         <SopcDesignFile>../../niosHello.sopcinfo</SopcDesignFile>
